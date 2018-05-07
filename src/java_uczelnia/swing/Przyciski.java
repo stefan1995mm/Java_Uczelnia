@@ -11,6 +11,6 @@ package java_uczelnia.swing;
  */
 public class Przyciski {
     public static void main(String[] args){
-        
+        System.out.println("Tst");
     }
 }
