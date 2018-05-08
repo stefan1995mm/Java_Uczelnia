@@ -5,6 +5,7 @@
  */
 package java_uczelnia.swing;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -51,9 +52,11 @@ public class Ramka extends JFrame{
             etykieta.setText("Po zmianie");
             if(tekst.isEnabled()){
                 tekst.setEnabled(false);
+                tekst.setBackground(Color.gray);
             }
             else{
                 tekst.setEnabled(true);
+                tekst.setBackground(Color.white);
             }
         });
         panel.add(przycisk);
